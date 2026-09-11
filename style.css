@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(150deg, rgb(29, 29, 29) ,rgb(33, 33, 34));
+    color: white;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+}
+
+
+.navegacao {
+    display: flex;  
+    justify-content: center;
+    position: fixed;
+}
+
+.navegacao p {
+    padding-right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
