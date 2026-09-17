@@ -1,28 +1,176 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
-    background: linear-gradient(150deg, rgb(29, 29, 29) ,rgb(33, 33, 34));
+    background-color: black;
     color: white;
+    margin-bottom: 100px;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
-.logo{
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 100px;
+.pai{
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
 }
 
+.inicio{
+    padding-top: 200px;   
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 100px solid #0166b1;
+}
+
+
+
+.inicio p{
+    font-size: 30px;
+    color: gray;
+}
+
+.baixo {   
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+
+.inicio h1{
+    font: 500;
+}
 
 .navegacao {
-    display: flex;  
-    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    left:50%; 
     position: fixed;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: black;
 }
 
 .navegacao p {
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 30px;
     cursor: pointer;
+    text-align: center;
+}
+
+
+.primeiro{
+    padding-left: 20px;
+    padding-top: 300px;;
+    font-size: 35px;
+    height: 200px;
+    display: column;
+    align-items: center;
+}
+
+.primeiro p{
+    font-size: 20px;
+    color: gray;
+}
+
+.garagem{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.car{
+    width: 100%;
+}
+
+.m2{
+    
+    border-radius: 10px;
+    width: 25%;
+    height: 360px;
+    background:linear-gradient(to top, #005799,#014274);
+}
+
+.m2 p{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.m3{
+    
+    border-radius: 10px;
+    width: 25%;
+    height: 360px;
+    background:linear-gradient(to top, #005799,#014274);
+}
+
+.m3 p{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.m4{
+    
+    border-radius: 10px;
+    width: 25%;
+    height: 360px;
+    background:linear-gradient(to top, #005799,#014274);
+}
+
+.m4 p{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.descer{
+  padding-top: 180px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: gray;
+  text-align: center;
+  border-bottom: 100px solid #0166b1;
+}
+
+.segundo{
+    padding-left: 20px;
+    padding-top: 100px;;
+    font-size: 35px;
+    height: 200px;
+    display: column;
+    align-items: center;
+}
+
+.segundo p {
+    color: gray;
+    font-size: 20px;
+}
+
+table{
+    width: 75%;
+    margin: 0 auto;
+}
+
+td, th{
+    text-align: center;
 }
