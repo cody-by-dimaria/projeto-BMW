@@ -9,8 +9,7 @@ body{
     color: white;
     margin-bottom: 100px;
     font-family: 'Titillium Web', sans-serif;
-    margin-bottom: 1000px;
-
+    margin-bottom: 300px;
 }
 
 .pai{
@@ -181,7 +180,7 @@ body{
 
 .segundo{
     padding-left: 20px;
-    padding-top: 100px;;
+    padding-top: 20px;;
     font-size: 35px;
     height: 200px;
     display: column;
@@ -196,9 +195,41 @@ body{
 table{
     width: 75%;
     margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 
 td, th{
     text-align: center;
+}
+
+.descerHis{
+  margin-top: 370px;
+  font-size: 35px;
+  color: gray;
+  text-align: center;
+  border-bottom: 100px solid #0166b1;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foto{
+    width: 200px;
+    border: 2px solid rgb(73, 73, 73);
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+.texto{
+    background-color: rgb(24, 24, 24);
+    height: 500px;
+    width: 40%;
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 10px;
+    line-height: 30px;
 }
 
